@@ -20,10 +20,18 @@ Wszystko co dotyczy tej klasy
 # 5. W którym miejscu klasy można deklarować zmienne
 W dowolnym miejscu
 # 6. Proszę omówić modyfikatory dostępu w Javie.
-private - prywatny modyfikator dostępu oznacza, że pola, metody itp. są widoczne tylko z klasy, w której się znajdują
-default (package-private) - defaultowy modyfikator dostępu określamy w ten sposób, że nie wpisujemy żadnego modyfikatora dostępu przy polu lub metodzie. Oznacza on natomiast, że pole lub metoda jest widoczna tylko dla klas znajdujących się w tej samej paczce co nasze pole lub metoda
-protected - modyfikator dostępu protected oznacza, że pola, metody itp. mogą być dostępne tylko dla klas dziedziczących z klasy, w której napisaliśmy ten modyfikator dostępu, albo z klas, które są dostępne w tej samej paczce co klasa, w której napisaliśmy słówko protected
-public - publiczny modyfikator dostępu oznacza, że pole, metoda itp. mogą być dostępne z każdego
+• private - prywatny modyfikator dostępu oznacza, że pola, metody itp. są widoczne tylko z klasy, w której się znajdują
+• default (package-private) - defaultowy modyfikator dostępu określamy w ten sposób, że nie wpisujemy żadnego modyfikatora dostępu przy polu lub metodzie. Oznacza on natomiast, że pole lub metoda jest widoczna tylko dla klas znajdujących się w tej samej paczce co nasze pole lub metoda
+• protected - modyfikator dostępu protected oznacza, że pola, metody itp. mogą być dostępne tylko dla klas dziedziczących z klasy, w której napisaliśmy ten modyfikator dostępu, albo z klas, które są dostępne w tej samej paczce co klasa, w której napisaliśmy słówko protected
+• public - publiczny modyfikator dostępu oznacza, że pole, metoda itp. mogą być dostępne z każdego
 # 7. Które ze słów kluczowych powoduje przeskoczenie z bloku try do bloku finally
 return
-# 8. Mając listę String[] drzewa = {„brzoza”, „modrzew”, „grab”, „buk”, „wierzba” } proszę zaproponować wyświetlenie jej na ekranie za pomocą iteratora i za pomocą #generyków. 
+# 8. Mając listę String[] drzewa = {„brzoza”, „modrzew”, „grab”, „buk”, „wierzba” } proszę zaproponować wyświetlenie jej na ekranie za pomocą iteratora i za pomocą generyków. 
+Zadanie w projekcie -> klasa Task_8
+# 9. Proszę zaproponować kod źródłowy metody weryfikującej czy podane 2 wyrazy składają się z tych samych liter np.
+MARA – składa się z 1 litery M, 2 liter A, 1 litery R
+RAMA – składa się z 1 litery R, 2 liter A, 1 litery M
+Podane przykłady składają się z tych samych liter.
+Napisać podstawowe testy jednostkowe dla tej metody (jUnit).
+Rozwiązanie w pakiecie main/java/Task_9, natomiast testy w pakiecie test
+
