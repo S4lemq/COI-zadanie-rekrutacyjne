@@ -13,3 +13,17 @@ podstawie - obiektem). Podsumowując obiekt to przedstawiciel, czyli reprezentan
   - Możemy rozszerzać tylko jedną klasę, natomiast interfejsów możemy implementować więcej niż jeden.
   - Tak jak wyżej wspomniałem wszystkie metody w interfejsach  z założenia są abstrakcyjne (oprócz default i static), podczas gdy w klasie abstrakcyjnej
     wcale takie być nie muszą.
+# 3. Proszę wyjaśnić mechanizm dziedziczenia w Javie.
+Jest to sposób na reużywanie już istniejącego kodu, w której nowa klasa tworzona jest na podstawie już istniejącej klasy, pobierając jej pola i metody, a także dodając nowe składniki, których nowa klasa wymaga. Istniejące metody możemy też nadpisywać -> overriding (polimorfizm dynamiczny) w klasie pochodnej
+# 4. Co należy zdefiniować w klasie podrzędnej
+Wszystko co dotyczy tej klasy
+# 5. W którym miejscu klasy można deklarować zmienne
+W dowolnym miejscu
+# 6. Proszę omówić modyfikatory dostępu w Javie.
+private - prywatny modyfikator dostępu oznacza, że pola, metody itp. są widoczne tylko z klasy, w której się znajdują
+default (package-private) - defaultowy modyfikator dostępu określamy w ten sposób, że nie wpisujemy żadnego modyfikatora dostępu przy polu lub metodzie. Oznacza on natomiast, że pole lub metoda jest widoczna tylko dla klas znajdujących się w tej samej paczce co nasze pole lub metoda
+protected - modyfikator dostępu protected oznacza, że pola, metody itp. mogą być dostępne tylko dla klas dziedziczących z klasy, w której napisaliśmy ten modyfikator dostępu, albo z klas, które są dostępne w tej samej paczce co klasa, w której napisaliśmy słówko protected
+public - publiczny modyfikator dostępu oznacza, że pole, metoda itp. mogą być dostępne z każdego
+# 7. Które ze słów kluczowych powoduje przeskoczenie z bloku try do bloku finally
+return
+# 8. Mając listę String[] drzewa = {„brzoza”, „modrzew”, „grab”, „buk”, „wierzba” } proszę zaproponować wyświetlenie jej na ekranie za pomocą iteratora i za pomocą #generyków. 
