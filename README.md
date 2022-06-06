@@ -34,6 +34,8 @@ Rozwiązanie w pakiecie main/java/org.example/Task_8-> klasa Task_8
 # 9. Proszę zaproponować kod źródłowy metody weryfikującej czy podane 2 wyrazy składają się z tych samych liter.
 Rozwiązanie w pakiecie main/java/org.example/Task_9, natomiast testy w pakiecie test/java/org.example/Task_9_Test
 # 10. Proszę przedstawić wysokopoziomowy diagram systemu dostępnego przez przeglądarkę internetową, przechowującego informacje o sukcesach sportowych osób znajdujących się w systemie. Proszę zaproponować model logiczny bazy danych, oraz wysokopoziomowo komponenty systemu. Nie ma potrzeby schodzić na poziom kodu źródłowego. W sytuacji wymagającej doszczegółowienia wymagań proszę przyjąć własne założenia i opisać je.
+# 11. 
+Rozwiązanie w pakiecie test/java/org.example/Task_11_Test oraz klasy w main
 # 13. Czy zbiór (Set) może zawierać duplikaty?  
 Nie
 # 14. Zaznaczyć metody należące do java.util.Set:
