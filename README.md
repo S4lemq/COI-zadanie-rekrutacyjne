@@ -35,6 +35,7 @@ Rozwiązanie w pakiecie main/java/org.example/Task_8-> klasa Task_8
 Rozwiązanie w pakiecie main/java/org.example/Task_9, natomiast testy w pakiecie test/java/org.example/Task_9_Test
 ## 10. Proszę przedstawić wysokopoziomowy diagram systemu dostępnego przez przeglądarkę internetową, przechowującego informacje o sukcesach sportowych osób znajdujących się w systemie. Proszę zaproponować model logiczny bazy danych, oraz wysokopoziomowo komponenty systemu. Nie ma potrzeby schodzić na poziom kodu źródłowego. W sytuacji wymagającej doszczegółowienia wymagań proszę przyjąć własne założenia i opisać je.
 
+![aaaaa](https://user-images.githubusercontent.com/87263429/172259723-0f0482eb-2e3f-4a60-9bb8-6bf2e5c1a285.PNG)
 ![db](https://user-images.githubusercontent.com/87263429/172253660-df50b28f-7362-45f2-a748-b1680f85d3ad.PNG)
 ![1](https://user-images.githubusercontent.com/87263429/172254229-2968aec9-c8d0-4653-85d2-e4354ef21724.PNG)
 ![2](https://user-images.githubusercontent.com/87263429/172254251-8cf29d30-a063-45b1-915d-d67b36778e3d.PNG)
